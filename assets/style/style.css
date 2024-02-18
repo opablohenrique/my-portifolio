@@ -17,10 +17,8 @@ body {
     margin: 2% 5%;
     font-family: "Poppins";
     color: white;
-    scrollbar-color: var(--primary-color) #222222;
 }
 
-body::-webkit-scrollbar 
 /* Estilo do Cabeçalho */
 
 .cabecalho {
