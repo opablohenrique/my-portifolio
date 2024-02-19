@@ -9,7 +9,7 @@
     <title>Pablo Henrique</title>
 </head>
 
-<body>
+<body id="body">
 
     <header class="cabecalho">
         <ul>
@@ -26,6 +26,7 @@
                 <li>Contato</li>
             </a>
         </ul>
+        <button onclick="light()">Dark</button>
     </header>
     <main>
         <section class="quem-sou" id="quem-sou">
@@ -34,7 +35,10 @@
             </article>
 
             <aside>
-                <h1>Olá! eu sou o <span>Pablo Henrique</span>🖐</h1>
+                <div class="titulo">
+                    <h1>Olá!&nbsp</h1> 
+                    <h1><div class="write ">eu sou o Pablo Henrique</div></h1>
+                </div>
                 <p>Desde minha infância, fui fascinado por tecnologia e sempre me envolvi com hardware. Com o tempo,
                     essa curiosidade se transformou em uma verdadeira paixão pela área da programação. Agora, em 2024,
                     estou dando um passo importante ao iniciar meu curso em Análise e Desenvolvimento de Sistemas, com o
@@ -58,7 +62,19 @@
                 <nav class="meus-projetos">
                     <a class="projeto" target="_blank" href="https://github.com/opablohenrique/curso-php">
                         <div>
-                            <h3>curso-php</h3>
+                            <h3>📌curso-php</h3>
+                            <p>Este repositório foi criado como parte do meu estudo no curso de Desenvolvimento Web com PHP. Aqui, armazeno uma página com o intuito de centralizar os exercícios passados durante o curso.</p>
+                        </div>
+                    </a>
+                    <a class="projeto" target="_blank" href="https://github.com/opablohenrique/landing-Page">
+                        <div>
+                            <h3>📌landing-page</h3>
+                            <p>Página estática para praticar apredizados em HTML e CSS.</p>
+                        </div>
+                    </a>
+                    <a class="projeto" target="_blank" href="#">
+                        <div>
+                            <h3>Projeto em andamento</h3>
                             <ul>
 
                             </ul>
@@ -66,23 +82,7 @@
                     </a>
                     <a class="projeto" target="_blank" href="#">
                         <div>
-                            <h3>Projeto...</h3>
-                            <ul>
-                                <li></li>
-                            </ul>
-                        </div>
-                    </a>
-                    <a class="projeto" target="_blank" href="#">
-                        <div>
-                            <h3>Projeto...</h3>
-                            <ul>
-
-                            </ul>
-                        </div>
-                    </a>
-                    <a class="projeto" target="_blank" href="#">
-                        <div>
-                            <h3>Projeto...</h3>
+                            <h3>Projeto em andamento</h3>
                             <ul>
 
                             </ul>
@@ -93,15 +93,29 @@
         </section>
         <section class="contato" id="contato">
             <h1>Contato</h1>
-            <img src="./assets/components/icons/e-mail.png" alt="icon e-mail">
-            <img src="./assets/components/icons/linkedin.png" alt="icon linkedin">
-            <img src="./assets/components/icons/instagram.png" alt="icon instagram">
-            <img src="./assets/components/icons/github.png" alt="icon github">
+            <div>
+                <a href="mailto:pablo.srezende@gmail.com" target="_blank">
+                    <img src="./assets/components/icons/e-mail.png" alt="icon e-mail">
+                </a>
+                <a href="https://www.linkedin.com/in/opablohenrique/" target="_blank">
+                    <img src="./assets/components/icons/linkedin.png" alt="icon linkedin">
+                </a>
+                <a href="https://www.instagram.com/pablo_henrique_r" target="_blank">
+                    <img src="./assets/components/icons/instagram.png" alt="icon instagram">
+                </a>
+                <a href="https://www.github.com/opablohenrique" target="_blank">
+                    <img src="./assets/components/icons/github.png" alt="icon github">
+                </a>
+            </div>
         </section>
     </main>
 
+    <footer>
+        <h5>Pablo Henrique © 2024</h5>
+    </footer>
 
 
+    <script src="scrip.js"></script>
 </body>
 
 </html>
